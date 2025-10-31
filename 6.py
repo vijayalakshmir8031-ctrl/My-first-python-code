@@ -43,3 +43,15 @@ print(family_set)
 family_set= {"shreedhar", "sindhu", "vijayalakshmi", "tarun"}
 family_set.clear()
 print(family_set)
+#output
+<class 'tuple'>
+<class 'set'>
+set()
+{1, 2, 3, 4, 5}
+{3}
+{1, 2}
+{1, 2, 4, 5}
+{'vijayalakshmi', 'shreedhar', 'trisha', 'sindhu', 'tarun'}
+{'vijayalakshmi', 'shreedhar', 'sindhu'}
+{'vijayalakshmi', 'shreedhar', 'sindhu'}
+set()
