@@ -107,3 +107,88 @@ Power: 1000
 Union: {1, 2, 3, 4, 5, 6}
 Intersection: {3, 4}
 Difference: {1, 2}
+# --- Tuple Program: All Tuple Operations ---
+
+# 1. Creating tuples
+student_info = ("Vijayalakshmi", 20, "AIML", 2025)
+print("Student Info Tuple:", student_info)
+
+# 2. Accessing elements
+print("Name:", student_info[0])
+print("Branch:", student_info[2])
+
+# 3. Negative indexing
+print("Last Element (using negative index):", student_info[-1])
+
+# 4. Tuple Slicing
+print("First 3 elements:", student_info[:3])
+
+# 5. Nested Tuple
+college = ("SU College", ("AIML", "CSE", "ECE"))
+print("Nested Tuple:", college)
+print("Second Department in Nested Tuple:", college[1][1])
+
+# 6. Tuple Concatenation
+marks = (85, 90, 88)
+full_details = student_info + marks
+print("Combined Tuple:", full_details)
+
+# 7. Tuple Repetition
+repeat_tuple = ("Python",) * 3
+print("Repeated Tuple:", repeat_tuple)
+
+# 8. Length of tuple
+print("Length of student_info:", len(student_info))
+
+# 9. Checking if element exists
+print("Is 'AIML' in student_info?", "AIML" in student_info)
+print("Is 'CSE' in student_info?", "CSE" in student_info)
+
+# 10. Iterating through tuple
+print("Iterating through student_info:")
+for item in student_info:
+    print("-", item)
+
+# 11. Tuple with numbers and built-in functions
+numbers = (10, 20, 5, 40, 30)
+print("Numbers Tuple:", numbers)
+print("Max value:", max(numbers))
+print("Min value:", min(numbers))
+print("Sum of all numbers:", sum(numbers))
+
+# 12. Tuple unpacking
+(name, age, branch, year) = student_info
+print("Unpacked Values:")
+print("Name:", name)
+print("Age:", age)
+print("Branch:", branch)
+print("Year:", year)
+
+# 13. Nested Tuples inside List
+students = [
+    ("Ravi", 19, "AIML"),
+    ("Priya", 20, "CSE"),
+    ("Manu", 21, "ECE")
+]
+print("\nList of Student Tuples:")
+for s in students:
+    print("Name:", s[0], "| Age:", s[1], "| Dept:", s[2])
+
+# 14. Tuple inside a function
+def student_details(student_tuple):
+    print("\n--- Student Details from Function ---")
+    for i in range(len(student_tuple)):
+        print(f"Detail {i+1}:", student_tuple[i])
+
+student_details(student_info)
+
+# 15. Returning tuple from function
+def calculate_marks(m1, m2, m3):
+    total = m1 + m2 + m3
+    avg = total / 3
+    return (total, avg)
+
+result = calculate_marks(85, 90, 88)
+print("\nMarks Total and Average:", result)
+print("Total:", result[0])
+print("Average:", result[1])
