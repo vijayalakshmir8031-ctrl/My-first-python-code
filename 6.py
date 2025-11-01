@@ -55,3 +55,55 @@ set()
 {'vijayalakshmi', 'shreedhar', 'sindhu'}
 {'vijayalakshmi', 'shreedhar', 'sindhu'}
 set()
+# --- Variables ---
+name = "Vijayalakshmi"
+age = 20
+marks = 85.5
+
+# --- String operations ---
+greeting = "Hello, " + name + "!"
+print(greeting)
+print("Your name in uppercase:", name.upper())
+
+# --- List ---
+subjects = ["Math", "Python", "AI", "DS"]
+subjects.append("Java")   # adding new subject
+print("Subjects list:", subjects)
+
+# --- Tuple ---
+college_info = ("AIML", "2nd Year", 2025)
+print("College Info:", college_info)
+
+# --- Mathematical operations ---
+x = 10
+y = 3
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Power:", x ** y)
+
+# --- Set ---
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+union_set = set1 | set2
+intersection_set = set1 & set2
+difference_set = set1 - set2
+
+print("Union:", union_set)
+print("Intersection:", intersection_set)
+print("Difference:", difference_set)
+#output
+Hello, Vijayalakshmi!
+Your name in uppercase: VIJAYALAKSHMI
+Subjects list: ['Math', 'Python', 'AI', 'DS', 'Java']
+College Info: ('AIML', '2nd Year', 2025)
+Addition: 13
+Subtraction: 7
+Multiplication: 30
+Division: 3.3333333333333335
+Power: 1000
+Union: {1, 2, 3, 4, 5, 6}
+Intersection: {3, 4}
+Difference: {1, 2}
