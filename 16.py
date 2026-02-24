@@ -5,7 +5,7 @@ if x==20:
 else:
   print("x is odd")
 
-2: x = 10
+x = 10
 
 if x > 0:
     print("it is +ve")
@@ -14,7 +14,7 @@ elif x < 0:
 else:
     print("it is zero")
 
-3: x = 110
+x = 110
 y = 20
 
 if x > y:
@@ -29,4 +29,11 @@ age = 18
 if age >= 18:
     print("eligible to vote")
 else:
-    print("not eligible")
+    print("not eligible") 
+
+
+marks = 40
+if marks >= 40:
+  print("pass")
+else:
+  print("fail")
