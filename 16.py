@@ -37,3 +37,10 @@ if marks >= 40:
   print("pass")
 else:
   print("fail")
+
+x = 7
+if x % 2 == 0:
+  print("x is even")
+else:
+  print("x is odd")
+
