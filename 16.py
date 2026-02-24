@@ -23,3 +23,10 @@ elif x < y:
     print("x is less than y")
 else:
     print("x is equal to y")
+
+age = 18
+
+if age >= 18:
+    print("eligible to vote")
+else:
+    print("not eligible")
