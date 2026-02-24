@@ -44,3 +44,9 @@ if x % 2 == 0:
 else:
   print("x is odd")
 
+
+x = 15
+if x % 3 == 0:
+  print("pizza")
+else:
+  print("print number")
