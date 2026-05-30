@@ -113,3 +113,13 @@ elif x==0:
     print("x is zero")
 else:
     print("x is negative")
+#largest three numbers
+a = 300
+b = 200
+c = 500
+if a > b:
+    print("a is largest")
+elif b > c:
+    print("b is largest")
+else:
+    print("c is largest")
