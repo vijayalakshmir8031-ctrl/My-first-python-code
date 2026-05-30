@@ -104,3 +104,12 @@ if x==30:
     print("x is a even")
 else:
     print("x is a odd")
+#check positive or negative 
+
+x = -13
+if x>0:
+    print("x is positive")
+elif x==0:
+    print("x is zero")
+else:
+    print("x is negative")
