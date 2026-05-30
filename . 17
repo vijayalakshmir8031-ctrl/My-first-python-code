@@ -18,6 +18,41 @@ birthday = {
 }
 birthday ["sindhu"] = "03-4-2005"
 print(birthday)
+
+#Dictionary in python
+#accessing 
+dictionaries = {
+    "tarun":"23-5-2013",
+    "trisha":"21-4-2021",
+    "viji":"03-11-2006"
+}
+print(type(dictionaries))
+print(dictionaries["tarun"])
+print(dictionaries)
+
+#adding and updating elements
+#adding an elemnts
+birthday = {
+    "tarun":"23-5-2013",
+    "trisha":"21-4-2021",
+    "viji":"03-11-2006"
+}
+birthday ["sindhu"] = "03-4-2005"
+print(birthday)
+#updating
+birthday ["sindhu"] = "03-4-2006"
+print(birthday)
+
+#remove an element
+birthday = {
+    "tarun":"23-5-2013",
+    "trisha":"21-4-2021",
+    "viji":"03-11-2006"
+}
+print(birthday.pop("tarun"))
+print(birthday)
+del birthday["trisha"]
+print(birthday)
 #updating
 birthday ["sindhu"] = "03-4-2006"
 print(birthday)
