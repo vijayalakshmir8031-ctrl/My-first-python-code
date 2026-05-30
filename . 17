@@ -95,3 +95,12 @@ else:
 age = 20
 if age>=18:
      print("you are eligible")
+
+#if-elif-else statement
+#check even or odd
+
+x = 30
+if x==30:
+    print("x is a even")
+else:
+    print("x is a odd")
