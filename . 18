@@ -18,4 +18,12 @@ i = 2
 
 while i <= 20:
     print(i)
+
+Print multiplication table of 5
+
+i = 1
+
+while i <= 10:
+    print("5 x", i, "=", 5 * i)
+    i += 1
     i += 2
