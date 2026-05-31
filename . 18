@@ -82,3 +82,12 @@ while num > 0:
     digit = num % 10
     print(digit)
     num = num // 10
+
+Check password until correct password is entered
+
+password = ""
+
+while password != "admin":
+    password = input("Enter Password: ")
+
+print("Access Granted")
