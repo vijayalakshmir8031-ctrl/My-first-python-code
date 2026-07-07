@@ -98,3 +98,11 @@ if age >= 18:
     print("You are eligible to vote.")
 else:
     print("You are not eligible to vote.")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1 > num2:
+    print("First number is greater.")
+else:
+    print("Second number is greater or both are equal.")
