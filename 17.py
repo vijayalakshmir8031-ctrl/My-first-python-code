@@ -34,3 +34,11 @@ for num in numbers:
 
 print("Even numbers:", even)
 print("Odd numbers:", odd)
+numbers = (5, 10, 15, 20, 25)
+
+x = int(input("Enter a number: "))
+
+if x in numbers:
+    print("Element found")
+else:
+    print("Element not found")
