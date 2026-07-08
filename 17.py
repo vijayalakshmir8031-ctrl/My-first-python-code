@@ -42,3 +42,10 @@ if x in numbers:
     print("Element found")
 else:
     print("Element not found")
+
+numbers = (1, 2, 3, 4, 5)
+
+reverse = numbers[::-1]
+
+print("Original Tuple:", numbers)
+print("Reversed Tuple:", reverse)
