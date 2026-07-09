@@ -16,3 +16,7 @@ student_marks = {}
 for i, student_name in enumerate(students):
   student_marks[student_name] = marks[i]  
 print(student_marks)
+
+student_marks = {"varun":100, "viji":25, "Trisha":89}
+for student, marks in student_marks.items():
+  print(f"{student}----{marks}")
