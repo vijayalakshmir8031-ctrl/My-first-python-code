@@ -20,3 +20,7 @@ print(student_marks)
 student_marks = {"varun":100, "viji":25, "Trisha":89}
 for student, marks in student_marks.items():
   print(f"{student}----{marks}")
+
+student_marks = {"varun":100, "viji":25, "Trisha":89}
+for student, marks in student_marks.keys():
+  print(f"{student}----{marks}")
