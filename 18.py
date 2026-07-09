@@ -9,3 +9,10 @@ dl = []
 for num in l:
   dl.append(num*2)
   print(dl)
+
+students = ["varun", "viji", "Trisha"] 
+marks = [100,25,89]
+student_marks = {}
+for i, student_name in enumerate(students):
+  student_marks[student_name] = marks[i]  
+print(student_marks)
