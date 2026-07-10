@@ -124,3 +124,7 @@ print(squares)
 numbers = [1, 2, 3, 4, 5, 6]
 even_numbers = [num for num in numbers if num % 2 == 0]
 print(even_numbers)
+
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+uppercased_cities = [city.upper() for city in cities]
+print(uppercased_cities)
