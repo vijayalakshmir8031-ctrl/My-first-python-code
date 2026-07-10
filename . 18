@@ -116,3 +116,7 @@ for i in range(len(students)):
     student_marks[students[i]] = marks[i]
 
 print(student_marks)
+
+numbers = [1, 2, 3, 4, 5]
+squares = [num ** 2 for num in numbers]
+print(squares)
