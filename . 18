@@ -128,3 +128,7 @@ print(even_numbers)
 cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
 uppercased_cities = [city.upper() for city in cities]
 print(uppercased_cities)
+
+numbers = [1, 2, 3, 4, 5]
+squares_dict = {num: num ** 2 for num in numbers}
+print(squares_dict)
