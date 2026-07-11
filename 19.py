@@ -17,3 +17,8 @@ city_population = {
 }
 large_cities = {city: population for city, population in city_population.items() if population > 10}
 print(large_cities)
+
+Example 2: Splitting a string with commas
+data = "apple,banana,mango"
+fruits = data.split(",")
+print(fruits)
