@@ -27,3 +27,11 @@ Example 3: Limiting the number of splits
 sentence = "Python is fun to learn"
 words = sentence.split(" ", 2)
 print(words)
+
+numbers = [10, 20, 30, 40, 50]
+total = 0
+
+for num in numbers:
+    total += num
+
+print("Total sum:", total)
