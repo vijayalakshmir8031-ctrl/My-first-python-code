@@ -43,3 +43,8 @@ for num in numbers:
     doubled.append(num * 2)
 
 print("Doubled List:", doubled)
+
+foods = ["Dosa", "Idli", "Vada", "Bisibelebath"]
+
+for food in foods:
+    print(f"I like {food}")
