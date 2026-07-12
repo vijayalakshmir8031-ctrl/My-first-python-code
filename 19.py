@@ -48,3 +48,8 @@ foods = ["Dosa", "Idli", "Vada", "Bisibelebath"]
 
 for food in foods:
     print(f"I like {food}")
+
+student_marks = {"Anand": 85, "Geetha": 90, "Kumar": 78}
+
+for student in student_marks:
+    print(student)
