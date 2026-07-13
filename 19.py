@@ -53,3 +53,10 @@ student_marks = {"Anand": 85, "Geetha": 90, "Kumar": 78}
 
 for student in student_marks:
     print(student)
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
