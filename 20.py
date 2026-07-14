@@ -18,3 +18,10 @@ def marriage(boy,girl):
   print(f" boy married {girl}")
   
 marriage("chandhan", "sneha")
+
+def marriage(boy,girl="girl"):
+  print(f" boy is {boy}")
+  print(f" girl is {girl}")
+  print(f" boy married {girl}")
+  
+marriage("chandhan")
