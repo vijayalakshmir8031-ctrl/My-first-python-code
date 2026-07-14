@@ -6,3 +6,8 @@ greet()
 def greet_user(name):
     print(f"Hello!,{name} Welcome to the Python course.")
     greet_user("Tarun")
+
+def tables(num):
+  for i in range(1,11):
+    print(f"num x i = {num*i}")
+  tables(2)
