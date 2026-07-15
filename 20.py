@@ -55,3 +55,10 @@ def factorial(n):
         return n * factorial(n - 1)
 
 print(factorial(5))
+
+def outer_function(name):
+    def inner_function():
+        print(f"Hello, {name}!")
+    inner_function()
+
+outer_function("Anand")
