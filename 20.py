@@ -44,3 +44,6 @@ def student_info(**details):
         print(f"{key}: {value}")
 
 student_info(name="Anand", age=22, course="
+
+double = lambda x: x * 2
+print(double(5))
