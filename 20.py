@@ -38,3 +38,9 @@ def total_sum(*numbers):
     return result
 
 print(total_sum(1, 2, 3, 4))
+
+def student_info(**details):
+    for key, value in details.items():
+        print(f"{key}: {value}")
+
+student_info(name="Anand", age=22, course="
