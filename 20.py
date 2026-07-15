@@ -30,3 +30,11 @@ def display_info(name, age):
     print(f"Name: {name}, Age: {age}")
 
 display_info(age=25, name="Kumar")
+
+def total_sum(*numbers):
+    result = 0
+    for num in numbers:
+        result += num
+    return result
+
+print(total_sum(1, 2, 3, 4))
