@@ -25,3 +25,8 @@ def marriage(boy,girl="girl"):
   print(f" boy married {girl}")
   
 marriage("chandhan")
+
+def display_info(name, age):
+    print(f"Name: {name}, Age: {age}")
+
+display_info(age=25, name="Kumar")
