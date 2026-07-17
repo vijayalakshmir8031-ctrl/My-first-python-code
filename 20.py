@@ -143,3 +143,7 @@ def greet():
 
 greet()  
 print(name)
+
+def student_info(name,age):
+    print(f"name:{name}, age:{age}")
+student_info("Tarun",16)
