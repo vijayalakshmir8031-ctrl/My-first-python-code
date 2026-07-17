@@ -135,3 +135,11 @@ def user_name(name):
     print(f"hello, {name} wellcome to a python program")
 user_name("student")
 user_name("Trisha")
+
+name = "Global Name"
+def greet():
+    name = "Local Name"
+    print(name)
+
+greet()  
+print(name)
