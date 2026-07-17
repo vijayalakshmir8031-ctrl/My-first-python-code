@@ -129,3 +129,9 @@ def add(a,b):
 (add(5,2))
 (add(9,2))
 (add(6,2))
+
+def user_name(name):
+
+    print(f"hello, {name} wellcome to a python program")
+user_name("student")
+user_name("Trisha")
