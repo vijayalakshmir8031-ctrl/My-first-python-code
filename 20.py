@@ -123,3 +123,9 @@ def user_name(name):
 
     print(f"hello,{name} wellcome to a python program")
 print(user_name("Tarun"))
+
+def add(a,b):
+    print(f"the sum is:{a+b}")
+(add(5,2))
+(add(9,2))
+(add(6,2))
