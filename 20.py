@@ -118,3 +118,8 @@ if is_prime(num):
     print("Prime Number")
 else:
     print("Not a Prime Number")
+
+def user_name(name):
+
+    print(f"hello,{name} wellcome to a python program")
+print(user_name("Tarun"))
