@@ -161,3 +161,11 @@ def student_info(**detalis):
     for key, value in detalis.items():
         print(f"{key}: {value}")
 student_info()
+
+def total_sum(*numbers):
+    result = 0
+    for num in numbers:
+        result += num
+    return result
+
+print(total_sum(1, 2, 3, 4))
