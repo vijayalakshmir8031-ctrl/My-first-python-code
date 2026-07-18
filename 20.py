@@ -177,3 +177,34 @@ def multiply(*numbers):
     print(result)
 
 multiply(2, 3, 4)
+
+def integer(*args):
+    result = 1
+    for num in args:
+        result *= num
+    return result
+
+print(integer(6, 3, 4))
+
+def largest_num(*numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+
+print(largest_num(4, 8, 1234, 8, 9))
+
+def smallest_num(*args):
+    smallest = args[0]
+    for num in args:
+        if smallest > num:
+            smallest = num
+    return smallest
+print(smallest_num(4,5,6,7,8))
+
+double = lambda x: x * 2
+print(double(5))
+
+multiple = lambda x: x * 8
+print(multiple(3))
