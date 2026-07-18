@@ -169,3 +169,11 @@ def total_sum(*numbers):
     return result
 
 print(total_sum(1, 2, 3, 4))
+
+def multiply(*numbers):
+    result = 1
+    for num in numbers:
+        result *= num
+    print(result)
+
+multiply(2, 3, 4)
