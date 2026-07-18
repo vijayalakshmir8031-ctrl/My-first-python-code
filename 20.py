@@ -203,3 +203,9 @@ def smallest_num(*args):
     return smallest
 print(smallest_num(4,5,6,7,8))
 
+
+double = lambda x: x * 2
+print(double(5))
+
+multiple = lambda x: x * 8
+print(multiple(3))
