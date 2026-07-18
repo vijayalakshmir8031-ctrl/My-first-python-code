@@ -147,3 +147,17 @@ print(name)
 def student_info(name,age):
     print(f"name:{name}, age:{age}")
 student_info("Tarun",16)
+
+def student_info(**detalis):
+    student_name = input("enter a student name:")
+    student_age = int(input("enter the student age:"))
+    student_course = input("enter the student course:")
+    student_city = input("enter a student city:")
+    student_father_name = input("enter the student's father's name:")
+    student_mother_name = input("enter the student's mother's name:")
+    student_phone_no = int(input("enter the student's phone number:"))
+    student_father_phone_no = int(input("enter the student's father's phone number:"))
+    student_mother_phone_no = int(input("enter the student's mother's phone number:"))
+    for key, value in detalis.items():
+        print(f"{key}: {value}")
+student_info()
