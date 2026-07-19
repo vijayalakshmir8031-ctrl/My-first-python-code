@@ -219,3 +219,12 @@ num2 = int(input("Enter second number: "))
 
 result = add(num1, num2)
 print("Sum =", result)
+
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+number = int(input("Enter a number: "))
+print(check_even_odd(number))
