@@ -327,3 +327,31 @@ final = total - discount
 print("\nTotal Amount:", total)
 print("Discount:", discount)
 print("Final Amount:", final)
+
+balance = 5000
+
+print("===== ATM =====")
+print("1. Check Balance")
+print("2. Deposit")
+print("3. Withdraw")
+
+choice = int(input("Enter Choice: "))
+
+if choice == 1:
+    print("Balance:", balance)
+
+elif choice == 2:
+    amount = int(input("Enter Deposit Amount: "))
+    balance = balance + amount
+    print("Updated Balance:", balance)
+
+elif choice == 3:
+    amount = int(input("Enter Withdraw Amount: "))
+    if amount <= balance:
+        balance = balance - amount
+        print("Remaining Balance:", balance)
+    else:
+        print("Insufficient Balance")
+
+else:
+    print("Invalid Choice")
