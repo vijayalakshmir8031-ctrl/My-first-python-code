@@ -308,3 +308,22 @@ else:
 print("\nCustomer Name:", name)
 print("Units:", units)
 print("Bill Amount:", bill)
+
+print("===== Shopping Bill =====")
+
+item1 = float(input("Enter Price of Item 1: "))
+item2 = float(input("Enter Price of Item 2: "))
+item3 = float(input("Enter Price of Item 3: "))
+
+total = item1 + item2 + item3
+
+if total >= 1000:
+    discount = total * 0.10
+else:
+    discount = 0
+
+final = total - discount
+
+print("\nTotal Amount:", total)
+print("Discount:", discount)
+print("Final Amount:", final)
