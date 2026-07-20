@@ -355,3 +355,23 @@ elif choice == 3:
 
 else:
     print("Invalid Choice")
+
+print("===== Employee Salary =====")
+
+name = input("Enter Employee Name: ")
+basic = float(input("Enter Basic Salary: "))
+
+hra = basic * 0.20
+da = basic * 0.10
+gross = basic + hra + da
+
+tax = gross * 0.05
+net = gross - tax
+
+print("\nEmployee:", name)
+print("Basic Salary:", basic)
+print("HRA:", hra)
+print("DA:", da)
+print("Gross Salary:", gross)
+print("Tax:", tax)
+print("Net Salary:", net)
