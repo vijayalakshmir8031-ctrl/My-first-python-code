@@ -433,3 +433,11 @@ if is_prime(number):
     print(number, "is a Prime Number")
 else:
     print(number, "is Not a Prime Number")
+
+def reverse_string(text):
+    return text[::-1]
+
+string = input("Enter a string: ")
+
+print("Original String:", string)
+print("Reversed String:", reverse_string(string))
