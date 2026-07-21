@@ -384,3 +384,17 @@ num2 = int(input("Enter second number: "))
 
 result = add_numbers(num1, num2)
 print("Sum =", result)
+
+def largest(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+z = int(input("Enter third number: "))
+
+print("Largest number is:", largest(x, y, z))
