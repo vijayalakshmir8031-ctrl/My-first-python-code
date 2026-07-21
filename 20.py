@@ -398,3 +398,12 @@ y = int(input("Enter second number: "))
 z = int(input("Enter third number: "))
 
 print("Largest number is:", largest(x, y, z))
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+num = int(input("Enter a number: "))
+print("The number is", check_even_odd(num))
