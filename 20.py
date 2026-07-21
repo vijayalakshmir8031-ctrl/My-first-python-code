@@ -375,3 +375,12 @@ print("DA:", da)
 print("Gross Salary:", gross)
 print("Tax:", tax)
 print("Net Salary:", net)
+
+def add_numbers(a, b):
+    return a + b
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+result = add_numbers(num1, num2)
+print("Sum =", result)
