@@ -41,3 +41,24 @@ dog2 = Dog("Bolt", "Beagle")
 
 dog1.bark()
 dog2.bark()
+
+class Student:
+    def __init__(self, name, usn, branch):
+        self.name = name
+        self.usn = usn
+        self.branch = branch
+
+    def display_details(self):
+        print("----- Student Details -----")
+        print("Name   :", self.name)
+        print("USN    :", self.usn)
+        print("Branch :", self.branch)
+
+    def study(self):
+        print(self.name, "is studying Python OOP.")
+
+# Creating Object
+student1 = Student("Rahul", "4SU23AI001", "AIML")
+
+# Calling Methods
+student
