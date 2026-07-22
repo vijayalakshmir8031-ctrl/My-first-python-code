@@ -26,3 +26,18 @@ person2 = Person("Megha", 25)
 
 person1.greet()
 person2.greet()
+
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print(f"{self.name} is barking!")
+
+# Creating multiple objects
+dog1 = Dog("Rex", "Golden Retriever")
+dog2 = Dog("Bolt", "Beagle")
+
+dog1.bark()
+dog2.bark()
