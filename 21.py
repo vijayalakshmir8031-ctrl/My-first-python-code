@@ -62,3 +62,10 @@ student1 = Student("Rahul", "4SU23AI001", "AIML")
 
 # Calling Methods
 student
+
+def display_balance(self):
+        print("Account Holder:", self.account_holder)
+        print("Current Balance:", self.balance)
+
+# Creating Object
+account = BankAccount("Anjali", 5000)
