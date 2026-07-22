@@ -69,3 +69,8 @@ def display_balance(self):
 
 # Creating Object
 account = BankAccount("Anjali", 5000)
+# Performing Operations
+account.display_balance()
+account.deposit(2000)
+account.withdraw(3000)
+account.display_balance()
