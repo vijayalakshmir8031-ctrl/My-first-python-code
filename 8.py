@@ -42,3 +42,11 @@ final_bill = bill - discount
 
 print("Discount:", discount)
 print("Final Bill:", final_bill)
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1 > num2:
+    print("Largest Number:", num1)
+else:
+    print("Largest Number:", num2)
