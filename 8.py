@@ -50,3 +50,12 @@ if num1 > num2:
     print("Largest Number:", num1)
 else:
     print("Largest Number:", num2)
+
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Positive Number")
+elif num < 0:
+    print("Negative Number")
+else:
+    print("Zero")
