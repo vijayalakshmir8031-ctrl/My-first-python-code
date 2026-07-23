@@ -28,3 +28,17 @@ if rno == 10:
     if  x + y < = 3 & x > o:
      x,y = 0,x + y
 print(f"current state: x={x},y={y}")
+
+bill = float(input("Enter the bill amount: "))
+
+if bill >= 5000:
+    discount = bill * 0.20
+elif bill >= 3000:
+    discount = bill * 0.10
+else:
+    discount = 0
+
+final_bill = bill - discount
+
+print("Discount:", discount)
+print("Final Bill:", final_bill)
