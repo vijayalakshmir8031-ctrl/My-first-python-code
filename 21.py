@@ -121,3 +121,6 @@ employee1 = employee("tarun", "developer", 50000)
 employee2 = employee("trisha", "designer")
 
 employee3 = employee("sindhu","manager", 60000)
+employee1.display()
+employee2.display()
+employee3.display()
