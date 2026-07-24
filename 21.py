@@ -74,3 +74,15 @@ account.display_balance()
 account.deposit(2000)
 account.withdraw(3000)
 account.display_balance()
+
+class ClassStudent:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+
+student = ClassStudent("Tarun", 14, 99)
+
+print(student.name)
+print(student.age)
+print(student.marks)
