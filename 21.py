@@ -95,3 +95,29 @@ class movie:
         print(f"Title: {self.title}, Rating: {self.rating}")
 movie = movie("avarage", 5)
 movie.display()
+
+class movie:
+    def __init__(self, title, rating):
+        self.title = title
+        self.rating = rating
+    def display(self):
+        print(f"Title: {self.title}, Rating: {self.rating}")
+movie = movie("avarage", 5)
+movie.display()   
+
+class employee:
+    def __init__(self,name, designation,salary=30000):
+        self.name = name
+        self.designation = designation
+        self.salary = salary
+
+    def display(self):
+        print(f"Name: {self.name}")
+        print(f"Designation: {self.designation}")
+        print(f"Salary: {self.salary}")
+
+employee1 = employee("tarun", "developer", 50000)
+
+employee2 = employee("trisha", "designer")
+
+employee3 = employee("sindhu","manager", 60000)
