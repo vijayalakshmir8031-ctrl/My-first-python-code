@@ -86,3 +86,12 @@ student = ClassStudent("Tarun", 14, 99)
 print(student.name)
 print(student.age)
 print(student.marks)
+
+class movie:
+    def __init__(self, title, rating):
+        self.title = title
+        self.rating = rating
+    def display(self):
+        print(f"Title: {self.title}, Rating: {self.rating}")
+movie = movie("avarage", 5)
+movie.display()
