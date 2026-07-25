@@ -42,3 +42,18 @@ user = User("dev_karnataka", "pass1234")
 print(user.get_username())  # Access allowed
 print(user.check_password("wrong_pass"))  # Returns False
 print(user.check_password("pass1234"))  # Returns True
+
+class Car:
+    def start_engine(self):
+        print("Engine started")
+
+    def accelerate(self):
+        print("Car accelerating")
+
+    def brake(self):
+        print("Car stopping")
+
+car = Car()
+car.start_engine()  # Abstracts complex internal workings
+car.accelerate()
+car.brake()
