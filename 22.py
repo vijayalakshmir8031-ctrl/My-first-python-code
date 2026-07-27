@@ -82,3 +82,14 @@ class Student:
 
 s = Student()
 s.show_marks()
+
+
+class ATM:
+    def __init__(self):
+        self.__balance = 5000
+
+    def balance(self):
+        print(self.__balance)
+
+a = ATM()
+a.balance()
