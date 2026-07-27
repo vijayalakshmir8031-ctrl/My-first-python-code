@@ -100,3 +100,10 @@ class Car:
 
 car = Car()
 car.start()
+
+class Phone:
+    def call(self):
+        print("Calling...")
+
+phone = Phone()
+phone.call()
