@@ -119,3 +119,16 @@ class Bank:
 b = Bank()
 b.deposit(1000)
 b.show()
+
+class Animal:
+    def __init__(self,dog,cat):
+        self.dog = dog
+        self.cat = cat
+
+
+    def sound(self):
+        print(f"{self.dog} woof woof")
+        print(f"{self.cat} meow meow")
+
+Animal = Animal("dog", "cat")
+Animal.sound()
