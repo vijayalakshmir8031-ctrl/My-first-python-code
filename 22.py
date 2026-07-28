@@ -132,3 +132,24 @@ class Animal:
 
 Animal = Animal("dog", "cat")
 Animal.sound()
+
+class Animal():
+    pass
+
+
+class Dog (Animal):
+    def sound(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("dog makes: woof woof")
+
+class Cat(Animal):
+    def sound(self):
+        print("cat makes: meow meow")
+
+Dog = Dog()
+Cat = Cat()
+Dog.sound()
+Cat.sound()
