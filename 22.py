@@ -153,3 +153,32 @@ Dog = Dog()
 Cat = Cat()
 Dog.sound()
 Cat.sound()
+
+class Vehicle:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def display(self):
+        print("Brand:", self.brand)
+
+
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with a key")
+
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike starts with a button")
+
+
+car = Car("Toyota")
+bike = Bike("Honda")
+
+car.display()
+car.start()
+
+print()
+
+bike.display()
+bike.start()
