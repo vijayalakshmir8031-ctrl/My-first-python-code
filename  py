@@ -34,3 +34,4 @@ elif average >= 60:
     grade = "C"
 elif average >= 50:
     grade = "D"
+else:
