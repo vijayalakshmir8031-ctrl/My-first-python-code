@@ -35,3 +35,7 @@ elif average >= 60:
 elif average >= 50:
     grade = "D"
 else:
+grade = "Fail"
+print("Total =", total)
+print("Average =", average)
+print("Grade =", grade)
