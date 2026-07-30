@@ -26,3 +26,12 @@ print("p" in my_string)
 print(4 in my_list)
 print(9 in my_list)
 print("r" in my_string)
+#comparison operators
+a = 10
+b = 20
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a <= b)
+print(a >= b)
