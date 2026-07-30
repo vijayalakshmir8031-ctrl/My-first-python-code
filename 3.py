@@ -35,3 +35,10 @@ print(a > b)
 print(a < b)
 print(a <= b)
 print(a >= b)
+#logic operators
+a = 4
+b = 7
+c = 9
+print(a > 0 and b > 6) 
+print(a > 2 or c > 4)
+print(not(a > 2))
