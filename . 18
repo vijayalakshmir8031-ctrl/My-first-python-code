@@ -150,3 +150,12 @@ i = 2
 
 while i <= 20:
     print(i)
+Find sum of numbers from 1 to 10P
+i = 1
+sum = 0
+
+while i <= 10:
+    sum = sum + i
+    i += 1
+
+print(sum)
