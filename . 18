@@ -132,3 +132,4 @@ print(uppercased_cities)
 numbers = [1, 2, 3, 4, 5]
 squares_dict = {num: num ** 2 for num in numbers}
 print(squares_dict)
+Print odd numbers from 1 to 15
