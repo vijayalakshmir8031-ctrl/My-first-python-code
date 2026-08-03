@@ -167,3 +167,21 @@ while i <= 10:
     print("5 x", i, "=", 5 * i)
     i += 1
     i += 2
+
+Print each character of a string
+
+name = "Python"
+i = 0
+
+while i < len(name):
+    print(name[i])
+    i += 1
+
+Reverse a given number
+
+num = 1234
+
+while num > 0:
+    digit = num % 10
+    print(digit)
+    num = num // 10
