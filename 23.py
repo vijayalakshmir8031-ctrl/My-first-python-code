@@ -57,3 +57,22 @@ def menu():
     print("4. Exit")
 
 balance = 0
+while True:
+    menu()
+    choice = int(input("enter your choice"))
+    if choice == 1:
+        print("balance:", balance)
+    elif choice == 2:
+       amount = int(input("enter a amount to deposite"))
+       balance += amount
+    elif choice == 3:
+        amount = int(input("enter a amount to withdraw"))
+        balance -= amount
+    elif choice == 4:
+        print("Exiting the program.")
+        break
+    else:
+        print("Invalid choice. Please try again.")
+        
+
+        
