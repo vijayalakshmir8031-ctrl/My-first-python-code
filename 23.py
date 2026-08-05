@@ -48,3 +48,12 @@ while True:
     elif choice == 5:
         print("Exiting the program.")
         break
+
+def menu():
+    print("Banking System")
+    print("1. Check Balance")
+    print("2. Deposit")
+    print("3. Withdraw")
+    print("4. Exit")
+
+balance = 0
