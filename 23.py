@@ -142,3 +142,14 @@ class Student:
 student1 = Student()
 student1.display()
 
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def display(self):
+        print("Name:", self.name)
+        print("Salary:", self.salary)
+
+employee1 = Employee("Rahul", 30000)
+employee1.display()
