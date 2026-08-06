@@ -134,4 +134,11 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.")
+class Student:
+    def display(self):
+        print("Student name: Vijay")
+        print("Age: 20")
+
+student1 = Student()
+student1.display()
 
