@@ -153,3 +153,15 @@ class Employee:
 
 employee1 = Employee("Rahul", 30000)
 employee1.display()
+
+class Vehicle:
+    def start(self):
+        print("Vehicle is starting")
+
+class Car(Vehicle):
+    def drive(self):
+        print("Car is driving")
+
+car1 = Car()
+car1.start()
+car1.drive()
