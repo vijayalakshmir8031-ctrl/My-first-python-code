@@ -34,5 +34,19 @@ except ZeroDivisionError:
 except ValueError:
     print("Error: Please enter valid numbers.")
 
+try:
+    filename = input("Enter file name: ")
+
+    file = open(filename, "r")
+    content = file.read()
+
+    print(content)
+    file.close()
+
+except FileNotFoundError:
+    print("Error: File does not exist.")
+
+finally:
+    print("Program End")
 
 
