@@ -16,7 +16,7 @@ if time==9:
      print("it is a breakfast time")
 elif time==1:
      print("it is a lunch time") 
-elif time==9:
+elif time==9
      print("it is a dinner time")
 else:
      print("it is not a meal time")
