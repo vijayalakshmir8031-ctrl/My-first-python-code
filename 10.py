@@ -65,3 +65,10 @@ fruits_set = {"mango","apple","banana"}
 fruits_set.clear()
 print(fruits_set)
 
+a = 10
+b = 20
+
+sum = a + b
+print("Sum =", sum)
+
+
