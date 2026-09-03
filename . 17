@@ -133,4 +133,4 @@ elif marks >= 75:
 elif marks >= 50:
     print("grade c")
 else:
-    ("fail")
+    ("fail") 
