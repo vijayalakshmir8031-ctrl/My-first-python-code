@@ -6,7 +6,7 @@ dictionaries = {
     "viji":"03-11-2006"
 }
 print(type(dictionaries))
-print(dictionaries["tarun"])
+print(dictionaries["tarun"]) 
 print(dictionaries)
 
 #adding and updating elements
