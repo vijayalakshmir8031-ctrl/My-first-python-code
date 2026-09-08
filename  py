@@ -32,7 +32,7 @@ elif average >= 75:
     grade = "B"
 elif average >= 60:
     grade = "C"
-elif average >= 50:
+elif average >= 50
     grade = "D"
 else:
 grade = "Fail"
