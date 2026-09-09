@@ -1,5 +1,5 @@
 #Tuples
-my_tuples = ("element1","element2","elemnt3")
+my_tuples = ("element1","element2","elemnt3") 
 number_tuples = (1,2,3)
 print(number_tuples)
 print(my_tuples)
