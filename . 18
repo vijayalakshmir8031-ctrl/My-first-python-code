@@ -177,7 +177,7 @@ while i < len(name):
     print(name[i])
     i += 1
 
-Reverse a given number
+Reverse a given number 
 
 num = 1234
 
