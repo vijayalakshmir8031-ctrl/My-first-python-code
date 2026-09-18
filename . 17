@@ -25,7 +25,7 @@ dictionaries = {
     "tarun":"23-5-2013",
     "trisha":"21-4-2021",
     "viji":"03-11-2006"
-}
+}  
 print(type(dictionaries))
 print(dictionaries["tarun"])
 print(dictionaries)
