@@ -56,7 +56,7 @@ print(birthday)
 birthday ["sindhu"] = "03-4-2006"
 print(birthday)
 
-#remove an element
+#remove an element 
 birthday = {
     "tarun":"23-5-2013",
     "trisha":"21-4-2021",
