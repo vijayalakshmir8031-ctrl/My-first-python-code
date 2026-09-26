@@ -16,7 +16,7 @@ birthday = {
     "viji":"03-11-2006"
 }
 birthday ["sindhu"] = "03-4-2005" 
-print(birthday)
+print(birthday)  
 
 #Dictionary in pythonn
 #accessing 
