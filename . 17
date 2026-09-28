@@ -18,7 +18,7 @@ birthday = {
 birthday ["sindhu"] = "03-4-2005" 
 print(birthday)  
 
-#Dictionary in pythonn
+#Dictionary in python
 #accessing 
 dictionaries = {
     "tarun":"23-5-2013",
