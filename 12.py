@@ -21,7 +21,7 @@ elif time==9
 else:
      print("it is not a meal time")
 #comparison operation in if statement 
-age = 20
+age = 20 
 if age>=18: 
      print("you are eligible to vote")
 else:
