@@ -20,7 +20,7 @@ elif time==9
      print("it is a dinner time")
 else:
      print("it is not a meal time")
-#comparison operation in if statement
+#comparison operation in if statement 
 age = 20
 if age>=18: 
      print("you are eligible to vote")
