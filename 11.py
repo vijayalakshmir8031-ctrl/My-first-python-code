@@ -1,6 +1,6 @@
 #Dictionaryy... 
 Python
-student = {
+student = {  
     "name": "Viji",
     "age": 20,
     "branch": "AIML"
