@@ -7,7 +7,7 @@ dictionaries = {
 }
 print(type(dictionaries))
 print(dictionaries["tarun"])  
-print(dictionaries)
+print(dictionaries) 
  
 #adding and updating elements   
 #adding an elemnts
