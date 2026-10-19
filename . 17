@@ -15,7 +15,7 @@ birthday = {
     "tarun":"23-5-2013",   "trisha":"21-4-2021",  
     "viji":"03-11-2006"
 }
-birthday ["sindhu"] = "03-4-2005" 
+birthday ["sindhu"] = "03-4-2005"  
 print(birthday)  
 
 #Dictionary in python
