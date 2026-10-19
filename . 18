@@ -12,7 +12,7 @@ while i <= 10:
     print(i)
     i += 1
 
-Print even numbers from 2 to 20 
+Print even numbers from 2 to 20  
 
 i = 2
 
